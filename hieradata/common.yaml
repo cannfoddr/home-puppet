@@ -1,4 +1,0 @@
----
-classes:
-  - puppet_run
-"puppet_run::server_name": puppet.example.com
