@@ -31,9 +31,6 @@ mod 'inifile',
 mod 'property_list_key',
     :git => 'https://github.com/glarizza/puppet-property_list_key'
 
-mod 'puppet_run',
-    :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
-
 mod 'munki_certs',
     :git => 'https://github.com/grahamgilbert/puppet-munki_certs'
 
