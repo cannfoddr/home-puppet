@@ -1,29 +1,41 @@
-mod "puppetlabs/stdlib", '4.10.0'
-mod 'mosen/cups', '1.4.1'
-mod "echocat-nfs", '1.7.1'
-mod "garethr-docker", '5.0.0'
-mod "puppetlabs/concat", '1.2.5'
-mod "herculesteam-augeasproviders_shellvar", '2.2.1'
-mod "herculesteam-augeasproviders_core", '2.1.2'
-mod "puppetlabs-apt", '2.2.1'
-mod "stahnma-epel", '1.2.2'
+mod 'mac_admin',
+    :git => 'https://github.com/grahamgilbert/puppet-mac_admin'
+
 mod 'mac_profiles_handler',
-  :git => 'https://github.com/keeleysam/puppet-mac_profiles_handler',
-mod 'mac-facts',
-  :git => 'https://github.com/grahamgilbert/grahamgilbert-mac_facts.git',
-mod 'macauthdb',
-  :git => 'http://git.pratt.edu/mac-mgmt/puppet-macauthdb.git'
-mod 'remotemanagement',
-  :git => 'http://git.pratt.edu/mac-mgmt/puppet-remotemanagement.git'
-mod 'dsconfigad',
-  :git => 'http://git.pratt.edu/mac-mgmt/puppet-dsconfigad.git'
+    :git => 'https://github.com/keeleysam/rcoleman-mac_profiles_handler'
+
+mod 'mac_facts',
+    :git => 'https://github.com/grahamgilbert/grahamgilbert-mac_facts.git'
+
+mod 'repository',
+    :git => 'https://github.com/boxen/puppet-repository'
+
 mod 'outset',
-  :git => 'https://github.com/grahamgilbert/puppet-outset.git',
+    :git => 'https://github.com/grahamgilbert/puppet-outset'
+
+mod 'stdlib',
+    :git => 'https://github.com/puppetlabs/puppetlabs-stdlib'
+
+mod 'osx',
+    :git => 'https://github.com/boxen/puppet-osx'
+
+mod 'vagrant',
+    :git => 'https://github.com/boxen/puppet-vagrant'
+
+mod 'git',
+    :git => 'https://github.com/boxen/puppet-git'
+
 mod 'inifile',
     :git => 'https://github.com/puppetlabs/puppetlabs-inifile'
+
 mod 'property_list_key',
     :git => 'https://github.com/glarizza/puppet-property_list_key'
+
+mod 'puppet_run',
+    :git => 'https://github.com/grahamgilbert/puppet-puppet_run'
+
 mod 'munki_certs',
     :git => 'https://github.com/grahamgilbert/puppet-munki_certs'
+
 mod 'sal_client',
     :git => 'https://github.com/grahamgilbert/puppet-sal_client'
